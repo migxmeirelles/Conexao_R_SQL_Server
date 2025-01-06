@@ -1,3 +1,5 @@
+library(odbc)
+
 con <- dbConnect(odbc(),
                  Driver = "SQL Server",
                  Server = "***********",
